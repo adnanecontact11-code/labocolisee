@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Laboratoire Le Colisée – Analyses Médicales</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0f766e'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="font-sans bg-gray-50 text-gray-800">
+
+<!-- NAVBAR -->
+<header class="bg-white shadow fixed w-full z-50">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+    <div class="flex items-center gap-3">
+      <img src="C:\Users\adnane1\Desktop\laboratoire des analyses\logo.png" alt="Logo Laboratoire" class="h-20">
+      <span class="font-bold text-primary text-sm md:text-base">
+        Laboratoire Le Colisée
+      </span>
+    </div>
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#accueil" class="hover:text-primary">Accueil</a>
+      <a href="#directeur" class="hover:text-primary">Mot du directeur</a>
+      <a href="#services" class="hover:text-primary">Services</a>
+      <a href="#avis" class="hover:text-primary">Avis</a>
+      <a href="#contact" class="hover:text-primary">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO / ACCUEIL -->
+<section id="accueil" class="pt-28 pb-20 bg-gradient-to-r from-teal-700 to-teal-500 text-white">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <h1 class="text-3xl md:text-5xl font-bold mb-4">
+      Laboratoire Le Colisée
+    </h1>
+    <p class="text-lg md:text-xl mb-8">
+      Laboratoire d’analyses médicales – Fiabilité, rapidité et confiance
+    </p>
+    <a href="https://wa.me/212600000000" target="_blank"
+       class="inline-block bg-white text-primary font-semibold px-8 py-3 rounded-full shadow hover:bg-gray-100 transition">
+      📅 Prendre RDV via WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- MOT DU DIRECTEUR -->
+<section id="directeur" class="py-16 bg-white">
+  <div class="max-w-5xl mx-auto px-4 text-center">
+    <h2 class="text-2xl md:text-3xl font-bold text-primary mb-6">
+      Mot du Directeur
+    </h2>
+    <p class="text-gray-600 leading-relaxed">
+      Notre laboratoire s’engage à fournir des analyses médicales fiables,
+      rapides et conformes aux normes les plus strictes.
+      La satisfaction et la confiance de nos patients sont au cœur de notre mission.
+    </p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-16 bg-gray-100">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-2xl md:text-3xl font-bold text-center text-primary mb-12">
+      Nos Services
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow text-center">
+        <h3 class="font-semibold mb-2">Analyses sanguines</h3>
+        <p class="text-sm text-gray-600">Bilans complets et spécialisés</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow text-center">
+        <h3 class="font-semibold mb-2">Analyses hormonales</h3>
+        <p class="text-sm text-gray-600">Suivi médical précis</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow text-center">
+        <h3 class="font-semibold mb-2">Bactériologie</h3>
+        <p class="text-sm text-gray-600">Diagnostic fiable</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow text-center">
+        <h3 class="font-semibold mb-2">Biochimie</h3>
+        <p class="text-sm text-gray-600">Analyses rapides</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow text-center">
+        <h3 class="font-semibold mb-2">Immunologie</h3>
+        <p class="text-sm text-gray-600">Technologies modernes</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow text-center">
+        <h3 class="font-semibold mb-2">Résultats en ligne</h3>
+        <p class="text-sm text-gray-600">Accès sécurisé</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AVIS PATIENTS -->
+<section id="avis" class="py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-2xl md:text-3xl font-bold text-center text-primary mb-12">
+      Avis de nos Patients
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-gray-100 p-6 rounded-xl shadow">
+        <p class="italic">“Service rapide et personnel très professionnel.”</p>
+        <span class="block mt-4 font-semibold">— Patient</span>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-xl shadow">
+        <p class="italic">“Excellent accueil et résultats fiables.”</p>
+        <span class="block mt-4 font-semibold">— Patiente</span>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-xl shadow">
+        <p class="italic">“Je recommande vivement ce laboratoire.”</p>
+        <span class="block mt-4 font-semibold">— Patient</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<section class="py-16 bg-gray-100">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-2xl md:text-3xl font-bold text-center text-primary mb-8">
+      Localisation
+    </h2>
+    <div class="rounded-xl overflow-hidden shadow">
+      <iframe
+        src="https://www.google.com/maps?q=casablanca&output=embed"
+        class="w-full h-80 border-0"
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-16 bg-white">
+  <div class="max-w-5xl mx-auto px-4 text-center">
+    <h2 class="text-2xl md:text-3xl font-bold text-primary mb-6">
+      Contact
+    </h2>
+    <p class="mb-2">📞 Téléphone : 05 00 00 00 00</p>
+    <p class="mb-2">📧 Email : contact@labo-colisee.ma</p>
+    <p>📍 Adresse : Casablanca, Maroc</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-primary text-white py-4 text-center text-sm">
+  © 2026 Laboratoire Le Colisée – Tous droits réservés
+</footer>
+
+</body>
+</html>
